@@ -1,3 +1,10 @@
+window.onload = function () {
+  let container = document.getElementById("load-container");
+
+  container.style.visibility = "hidden";
+  container.style.opacity = "0";
+};
+
 const form = document.querySelector(".form");
 form.addEventListener("submit", envio);
 
