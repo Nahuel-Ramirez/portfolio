@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/7494db913f.js" crossorigin="anonymous"></script>
+    <title>Nahuel Nazareno Ramirez</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <header class="titulo-container" id="home">
+        <nav class="nav-flex">
+          <i class="fas fa-home"><a href="#home"><b>Home</b> </a></i>
+          <i class="fas fa-user"><a href="#sobre-mi"><b>Sobre Mi</b></a></i>
+          <i class="fas fa-briefcase"><a href="#portfolio"><b>Portfolio</b></a></i>
+          <i class="fas fa-envelope"><a href="#contact"><b>Contacto</b></a></i>
+        </nav>
+        <div class="icono-menu">
+          <input type="checkbox" id="btn-menu">
+          <label for="btn-menu"><img src="./assets/Boton_menu_consombra.png" alt="" id="boton-menu"></label>
+        </div>
+        <nav class="nav__responsive-flex">
+          <div class="responsive-menu" id="menuResponsive">
+            <i class="fas fa-home"><a href="#home" id="home-enlace"><b>Home</b> </a></i>
+            <i class="fas fa-user"><a href="#sobre-mi" id="sobreMi-enlace"><b>Sobre Mi</b></a></i>
+            <i class="fas fa-briefcase"><a href="#portfolio" id="portfolio-enlace"><b>Portfolio</b></a></i>
+            <i class="fas fa-envelope"><a href="#contact" id="contacto-enlace"><b>Contacto</b></a></i>
+          </div>
+        </nav>
+        <div class="titulo-flex">
+          <h1 id="titulo">Nahuel Ramirez</h1>
+          <h3 id="titulo-descripcion">FrontEnd Dev Trainee</h3>
+        </div>
+        <div class="fotocv arriba">
+          <img src="./assets/foto cv1.jpg" alt="Imagen de perfil" class="img-titulo" id="imagencv" />
+        </div>
+      </header>
+      <main>
+        <section class="section-container">
+          <aside class="flex-aside" >
+            <h2 id="sobre-mi">Sobre mi</h2>
+            <p>
+            Bienvenid@s! Mi nombre es <b>Nahuel Ramirez</b> y me encanta la
+            teconologia, actualmente estoy capacitandome para ser un
+            <b>FrontEnd Developer</b> pero mi objetivo es llegar a ser un
+            <b>Fullstack Developer</b>. <br /> <br> 
+            Soy de Lomas de Zamora, tengo 25 años y estudio Tecnicatura
+            universitaria en programacion en la Universidad de Almirante Brown.
+            Amo jugar futbol, soy muy sociable, me encanta trabajar en equipo, y
+            mi sueño es formar parte de una gran empresa donde pueda aplicar mis conocimientos para crear soluciones. <br /><br />
+            </p>
+          </aside>
+          <div class="flex-portfolio" >
+            <h2 id="portfolio">Portfolio</h2>
+            <h3>Algunos proyectos en los que estuve trabajando</h3>
+            <a href="https://github.com/Nahuel-Ramirez/CRUD-python-sqlite3" target="__BLANK">Sistema CRUD con Python</a>
+            <a href="">Proyecto2</a>
+            <a href="">Proyecto3</a>
+            <a href="">Proyecto4</a>
+            </div>
+        </section>
+          <div class="flex-contact">
+            <h2>Contacto</h2>
+            <p>Si te gustaria contactarme, podes hacerlo desde <a id="formulario" href="https://nahuel-ramirez.github.io/form-flex/" target="__blank">este formulario</a> o bien comunicarte por mis redes sociales.</p>
+          </div>
+      </main>
+      <footer class="social-container" id="contact">
+        <div class="social">
+          <i class="fab fa-linkedin"><a href="https://www.linkedin.com/in/nahuel-ramirez-25a864b6/" target="__blank">LinkedIn</a></i> 
+          <i class="fab fa-github"><a href="https://github.com/Nahuel-Ramirez" target="__blank">GitHub</a></i>
+          <i class="fab fa-whatsapp"><a href="https://api.whatsapp.com/send?phone=+541173635082&text=" target="__blank">Whatsapp</a></i>
+        </div>
+        <div class="firma">
+          <h4>Creado por Nahuel Ramirez &#169 &#9734</h4>
+        </div>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
